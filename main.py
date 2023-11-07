@@ -7,8 +7,8 @@ pygame.init()
 
 # MUSIC
 mixer.music.load("snakecharmer.mp3")
-mixer.music.play(-1)                                                    # -1 permet de jouer la musique en boucle
-pygame.mixer.music.set_volume(0.3)                                      # gère le volume du son
+mixer.music.play(-1)
+pygame.mixer.music.set_volume(0.3)
 
 class Block:
     def __init__(self, x_pos, y_pos):
@@ -119,7 +119,7 @@ class Game:
 
 
 
-NB_COL = 10                                 # Nom des Variables en majuscule pr indiquer que c des constantes et qu'elles ne seront pas modifier
+NB_COL = 10
 NB_ROW = 15
 CELL_SIZE = 40
 
@@ -136,14 +136,15 @@ game_on = True
 game = Game()
 
 SCREEN_UPDATE = pygame.USEREVENT
-pygame.time.set_timer(SCREEN_UPDATE, 400)                                                       # Event déclenché tt les 200 millisecondes
+pygame.time.set_timer(SCREEN_UPDATE, 400)
 
 
 def show_grid():
     for i in range(0, NB_COL):
         for j in range(0, NB_ROW):
             rect = pygame.Rect(i * CELL_SIZE, j * CELL_SIZE, CELL_SIZE, CELL_SIZE)
-            pygame.draw.rect(screen, (pygame.Color("black")), rect, width=1)                      # widht=0 ça sera tt noir, widht>0 ça créer une bordure, widht<0 on ne voit plus le noir
+            # widht=0 tout noir, widht>0 créer une bordure, widht<0 on ne vois plus de noir
+            pygame.draw.rect(screen, (pygame.Color("black")), rect, width=1)
 
 
 while game_on:
