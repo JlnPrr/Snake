@@ -18,7 +18,8 @@
 
 
 <!-- {:style="text-align:center;"} -->
-![img_morpion4](https://github.com/JlnPrr/Snake/assets/83329578/e67f07ed-f65b-4465-b40a-f1a5e12d8974)   ![img_morpion2](https://github.com/JlnPrr/Snake/assets/83329578/ff5a839e-8c9f-422f-9187-694ac264ebca)
+![img_morpion4](https://github.com/JlnPrr/Snake/assets/83329578/8a8ec4cc-f83d-4f0d-9fe3-d3eab4dc5df7)   ![img_morpion2](https://github.com/JlnPrr/Snake/assets/83329578/1640bdc4-02f7-420e-b929-b7fdc657a0a5)
+
 
 
 <br/>
